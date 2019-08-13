@@ -8,8 +8,6 @@ import android.content.Intent;
  * Created by 10202 on 2016/4/11.
  */
 public class LockReceiver extends DeviceAdminReceiver {
-
-
     @Override
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
@@ -27,6 +25,4 @@ public class LockReceiver extends DeviceAdminReceiver {
         System.out.println("取消激活");
         super.onDisabled(context, intent);
     }
-
-
 }
